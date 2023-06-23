@@ -21,3 +21,11 @@ class CardExpireDateInputFormatter extends TextInputFormatter {
         selection: TextSelection.collapsed(offset: string.length));
   }
 }
+
+
+//TODO::::::::
+To use call the class in the inputFormatters like
+
+ inputFormatters: [
+     CardExpireDateInputFormatter(),
+],
