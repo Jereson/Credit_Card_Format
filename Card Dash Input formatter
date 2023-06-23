@@ -23,3 +23,10 @@ class AddDashInputFormatter extends TextInputFormatter {
   }
 }
 
+//TODO::::::::
+To use call the class in the inputFormatters like
+
+ inputFormatters: [
+     AddDashInputFormatter(),
+],
+
